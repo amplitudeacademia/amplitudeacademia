@@ -13,13 +13,6 @@ module.exports = {
             }
         },
         {
-            resolve: 'gatsby-plugin-tinacms',
-            options: {
-              sidebar: true,
-              plugins: [],
-          },
-        },
-        {
             resolve: `gatsby-plugin-stackbit-static-sass`,
             options: {
                 inputFile: `${__dirname}/src/sass/main.scss`,
