@@ -6,7 +6,7 @@
   "header": {
     "type": "header",
     "title": "Amplitude Academia",
-    "logo_img": "images/logo.png",
+    "logo_img": "/images/logoampacademia.png",
     "has_nav": true,
     "nav_links": [
       {
@@ -38,21 +38,13 @@
   "footer": {
     "type": "footer",
     "content": "&copy; All rights reserved.",
-    "links": [
-      {
-        "type": "action",
-        "label": "Made with Stackbit",
-        "url": "https://www.stackbit.com",
-        "style": "link",
-        "new_window": true
-      }
-    ],
+    "links": [],
     "has_social": true,
     "social_links": [
       {
         "type": "action",
         "label": "Twitter",
-        "url": "https://twitter.com/",
+        "url": "https://twitter.com/AmpAcademia",
         "style": "icon",
         "icon_class": "fa-twitter",
         "new_window": true
@@ -64,34 +56,10 @@
         "style": "icon",
         "icon_class": "fa-instagram",
         "new_window": true
-      },
-      {
-        "type": "action",
-        "label": "GitHub",
-        "url": "https://github.com/",
-        "style": "icon",
-        "icon_class": "fa-github",
-        "new_window": true
-      },
-      {
-        "type": "action",
-        "label": "LinkedIn",
-        "url": "https://www.linkedin.com/",
-        "style": "icon",
-        "icon_class": "fa-linkedin",
-        "new_window": true
-      },
-      {
-        "type": "action",
-        "label": "DEV",
-        "url": "https://dev.to/",
-        "style": "icon",
-        "icon_class": "fa-dev",
-        "new_window": true
       }
     ],
     "has_subscribe": true,
-    "subscribe_title": "Subscribe for new updates",
-    "subscribe_content": "Subscribe to my email newsletter to receive useful articles and special offers. This monthly email is sent out on the first of every month."
+    "subscribe_title": "Inscreva-se para novidades",
+    "subscribe_content": "Preencha o campo com seu e-mail para se inscrever. Você receberá um e-mail mensal com novidades."
   }
 }
