@@ -1,11 +1,11 @@
 {
-  "title": "Stackbit Ampersand Theme",
+  "title": "Amplitude Academia",
   "description": "Medium inspired blogging theme for Stackbit",
   "layout_style": "grid",
-  "palette": "red",
+  "palette": "black",
   "header": {
     "type": "header",
-    "title": "Ampersand",
+    "title": "Amplitude Academia",
     "logo_img": "images/logo.png",
     "has_nav": true,
     "nav_links": [
