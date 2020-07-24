@@ -1,42 +1,39 @@
 ---
-title: Get in Touch
-img_path: images/contact.jpg
+title: Entre em contato
+img_path: ""
 form_id: contactForm
 form_fields:
   - type: form_field
     input_type: text
     name: name
-    label: Name
-    default_value: Your name
+    label: Nome
+    default_value: Seu nome
     is_required: true
   - type: form_field
     input_type: email
     name: email
-    label: Email
-    default_value: Your email address
+    label: E-mail
+    default_value: Seu e-mail
     is_required: true
   - type: form_field
     input_type: select
     name: subject
-    label: Subject
-    default_value: Please select
+    label: Assunto
+    default_value: Por favor, selecione
     options:
-      - Error on the site
-      - Sponsorship
-      - Other
+      - Erro no site
+      - Publicidade
+      - Sugestão
   - type: form_field
     input_type: textarea
     name: message
-    label: Message
-    default_value: Your message
+    label: Mensagem
+    default_value: Sua mensagem
   - type: form_field
     input_type: checkbox
     name: consent
-    label: >-
-      I understand that this form is storing my submitted information so I can
-      be contacted.
-submit_label: Send Message
+    label: Eu entendo que o envio das informações confirma meu consentimento para
+      receber informações no e-mail informado.
+submit_label: Enviar mensagem
 template: contact
 ---
-
-Fill the form below to get in touch with me.
