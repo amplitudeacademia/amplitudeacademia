@@ -13,6 +13,17 @@ module.exports = {
             }
         },
         {
+            resolve: 'gatsby-plugin-tinacms',
+            options: {
+              // The CMS will be disabled on your production site
+              enabled: process.env.NODE_ENV !== 'production',
+              sidebar: true,
+              plugins: [
+                // We'll add some gatsby-tinacms plugins later
+            ],
+          },
+        },
+        {
             resolve: `gatsby-plugin-stackbit-static-sass`,
             options: {
                 inputFile: `${__dirname}/src/sass/main.scss`,
@@ -22,7 +33,7 @@ module.exports = {
         {
             resolve: `gatsby-remark-page-creator`,
             options: {
-                
+
             }
         },
         {
