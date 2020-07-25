@@ -15,8 +15,12 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-tinacms',
             options: {
+              // The CMS will be disabled on your production site
+              enabled: process.env.NODE_ENV !== 'production',
               sidebar: true,
-              plugins: [],
+              plugins: [
+                // We'll add some gatsby-tinacms plugins later
+            ],
           },
         },
         {
