@@ -16,11 +16,14 @@
     "fs-extra": "^7.0.1",
     "gatsby": "2.22.17",
     "gatsby-plugin-react-helmet": "^3.3.3",
+    "gatsby-plugin-tinacms": "^0.24.0",
     "gatsby-source-filesystem": "2.3.10",
+    "gatsby-tinacms-git": "^0.24.0",
+    "gatsby-tinacms-remark": "^0.24.0",
     "gatsby-transformer-remark": "2.8.14",
     "js-yaml": "^3.12.2",
-    "lodash": "^4.17.11",
-    "marked": "^0.6.1",
+    "lodash": "^4.17.19",
+    "marked": "^1.1.1",
     "moment": "^2.23.0",
     "moment-strftime": "^0.5.0",
     "node-sass": "^4.11.0",
@@ -31,6 +34,7 @@
     "react-html-parser": "^2.0.2",
     "react-script-tag": "^1.1.2",
     "rehype-react": "^3.0.2",
-    "sprintf-js": "^1.1.2"
+    "sprintf-js": "^1.1.2",
+    "styled-components": "^5.1.1"
   }
 }
